@@ -21,6 +21,7 @@ export const Products = ({ token }: Props) => {
 
   return (
     <div>
+      <h1>Test task</h1>
       <Input width={200} value={query} onChange={onQueryChange} />
       <Table pagination={false} dataSource={data?.items} columns={columns} />
       <Pagination
